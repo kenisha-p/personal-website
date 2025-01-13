@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -23,7 +23,7 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 
-const Home = React.forwardRef((props, ref) => {
+const Home = React.forwardRef((_, ref) => {
   return (
     <>
       <MainBody
@@ -34,13 +34,15 @@ const Home = React.forwardRef((props, ref) => {
         ref={ref}
       />
       {about.show && (
-        <AboutMe
-          heading={about.heading}
-          message={about.message}
-          link={about.imageLink}
-          imgSize={about.imageSize}
-          resume={about.resume}
-        />
+        <div id="aboutme">
+          <AboutMe
+            heading={about.heading}
+            message={about.message}
+            link={about.imageLink}
+            imgSize={about.imageSize}
+            resume={about.resume}
+          />
+        </div>
       )}
       {experiences.show && <Experience experiences={experiences} />}
       {repos.show && (
@@ -74,13 +76,11 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Routes>
-        <Route path="/" exact element={<Home ref={titleRef} />} />
-      </Routes>
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
+    <>
+      {/* Main Content */}
+      <Home ref={titleRef} />
+
+      {/* Footer */}
       <Footer>
         {getInTouch.show && (
           <GetInTouch
@@ -90,7 +90,7 @@ const App = () => {
           />
         )}
       </Footer>
-    </BrowserRouter>
+    </>
   );
 };
 

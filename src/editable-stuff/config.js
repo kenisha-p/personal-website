@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Kenisha",
   middleName: "",
   lastName: "Perera",
-  message: "Passionate about helping people with technology.",
+  message: "Passionate about helping people with technology!",
   icons: [
     {
       image: "fa-github",
@@ -94,18 +94,18 @@ const skills = {
     { name: "C/C++", value: 70 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 90 },
-    { name: "HTML/CSS", value: 70 },
+    { name: "HTML/CSS", value: 80 },
     { name: "C#", value: 60 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 95 },
-    { name: "Adaptability", value: 100 },
+    { name: "Positivity", value: 90 },
+    { name: "Adaptability", value: 95 },
     { name: "Problem Solving", value: 95 },
-    { name: "Empathy", value: 100 },
+    { name: "Empathy", value: 98 },
     { name: "Organization", value: 95 },
-    { name: "Creativity", value: 100 },
+    { name: "Creativity", value: 95 },
   ],
 };
 
