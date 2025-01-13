@@ -19,6 +19,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/kenishap/",
     },
+    {
+      image: "fa-file-pdf",
+      url: require("../editable-stuff/resume.pdf"),
+    },
   ],
 };
 
