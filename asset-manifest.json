@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.a5a525c0.css",
-    "main.js": "/personal-website/static/js/main.e007c2a7.js",
-    "static/js/787.6971d1b3.chunk.js": "/personal-website/static/js/787.6971d1b3.chunk.js",
-    "static/media/kenishap.jpg": "/personal-website/static/media/kenishap.2be4165fe35d43bd4c9b.jpg",
-    "static/media/resume.pdf": "/personal-website/static/media/resume.5252d751b753afbc236f.pdf",
-    "static/media/emailgisticslogo.png": "/personal-website/static/media/emailgisticslogo.5888eb5931a871312a90.png",
-    "static/media/intelexlogo.png": "/personal-website/static/media/intelexlogo.95cb63db5bbded9a0e5c.png",
-    "index.html": "/personal-website/index.html",
-    "main.a5a525c0.css.map": "/personal-website/static/css/main.a5a525c0.css.map",
-    "main.e007c2a7.js.map": "/personal-website/static/js/main.e007c2a7.js.map",
-    "787.6971d1b3.chunk.js.map": "/personal-website/static/js/787.6971d1b3.chunk.js.map"
+    "main.css": "/static/css/main.a5a525c0.css",
+    "main.js": "/static/js/main.16cf707a.js",
+    "static/js/787.6971d1b3.chunk.js": "/static/js/787.6971d1b3.chunk.js",
+    "static/media/kenishap.jpg": "/static/media/kenishap.241d3020c61ba4a32a57.jpg",
+    "static/media/resume.pdf": "/static/media/resume.5252d751b753afbc236f.pdf",
+    "static/media/emailgisticslogo.png": "/static/media/emailgisticslogo.5888eb5931a871312a90.png",
+    "static/media/intelexlogo.png": "/static/media/intelexlogo.95cb63db5bbded9a0e5c.png",
+    "index.html": "/index.html",
+    "main.a5a525c0.css.map": "/static/css/main.a5a525c0.css.map",
+    "main.16cf707a.js.map": "/static/js/main.16cf707a.js.map",
+    "787.6971d1b3.chunk.js.map": "/static/js/787.6971d1b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5a525c0.css",
-    "static/js/main.e007c2a7.js"
+    "static/js/main.16cf707a.js"
   ]
 }
